@@ -214,9 +214,9 @@ const Portfolio: React.FC = () => {
               className="bg-white dark:bg-zinc-900 w-full max-w-5xl max-h-[90vh] overflow-y-auto rounded-[2rem] shadow-2xl relative flex flex-col md:flex-row overflow-hidden"
             >
               {/* Close Button */}
-              <button 
+              <button
                 onClick={() => setSelectedProject(null)}
-                className="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/20 dark:bg-white/20 backdrop-blur text-white hover:bg-black/40 dark:hover:bg-white/40 transition-colors"
+                className="absolute top-4 right-4 z-20 p-2 rounded-full bg-black/30 dark:bg-white/30 backdrop-blur-md text-white hover:bg-black/50 dark:hover:bg-white/50 transition-all duration-300 shadow-lg hover:shadow-xl border border-white/20 dark:border-white/10"
               >
                 <X size={24} />
               </button>
